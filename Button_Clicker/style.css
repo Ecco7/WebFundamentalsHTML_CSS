@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    }
+
+.navbar{
+    background-color: #CCCCCC;
+    width: 590px;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}   
+
+.title{
+    margin-left: 20px;
+}
+
+#site-search{
+    height: 30px;
+    border: 4px solid black;
+}
+
+.button{
+    color: white;
+    background-color: #2B78E4;
+    border: 4px solid black;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.leftBox1-container{
+    margin-bottom: 20px;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.leftBox2-container{
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.col2{
+    align-self: flex-start;
+}
+
+.rightBox1-container{
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.like-button{
+    color: black;
+    background-color: #FFD966;
+    border: 1px solid black;
+    padding: 2px 5px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 3px #888888;
+}
+
+.defButton{
+    color: black;
+    background-color: #93C47D;
+    width: 150px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    box-shadow: 2px 5px 3px #888888;
+    margin-top: 20px;
+}
+
+span{
+    color: blue;
+}

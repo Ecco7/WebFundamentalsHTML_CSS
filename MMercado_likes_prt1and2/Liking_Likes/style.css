@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Balsamiq Sans', sans-serif;
+    
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navBar{
+    color: white;
+    background-color: black;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.feedBar{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.main{
+    border: 2px solid black;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.avatarBox{
+    text-align:center;
+    
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.aside{
+    flex: 3;
+    align-self: flex-start;
+}
+
+.feedBox{
+    border: 2px solid black;
+    align-self: flex-start;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.nameBody{
+    padding-top: 20px;
+}
+
+
+.button {
+    color: black;
+    background-color: #FFD966;
+    padding: 5px 10px;
+    box-shadow: 02px 02px black;
+    cursor: pointer;
+}

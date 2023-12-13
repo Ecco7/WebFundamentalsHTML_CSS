@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+
+.container{
+    border: 4px solid black;
+    padding: 10px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.button {
+    color: black;
+    background-color: #FFD966;
+    padding: 5px 10px;
+    box-shadow: 01px 05px 05px #888;
+}
+
+.body{
+    padding: 20px;
+}

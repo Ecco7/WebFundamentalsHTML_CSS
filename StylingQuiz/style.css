@@ -1,0 +1,24 @@
+h1{
+    color: antiquewhite;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+}
+
+h2{
+    color: antiquewhite;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    color: rebeccapurple;
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+span {
+    color: aqua;
+}

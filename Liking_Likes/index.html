@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navBar">
+            <h1>Network</h1>
+        </div>
+    </header>
+    <div class="feedBar">
+        <h2>Your Feed</h2>
+    </div>
+    <div class="container flex">
+        <div class="main">
+            <div class="avatarBox">
+                <img class="avatar" src="./images/1526230_10152170160533706_1826144344_n.jpg" alt="mannyPic">
+                <p><a href="#">Add an avatar</a></p>
+                <H3 class="name">James Doe</H3>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="feedBox">
+                <div class="header flex">
+                    <h2>Neil M</h2>
+                    <div id="count1">9 like(s)
+                    </div>
+                    <button onclick="add1(count1)" class="button">Like</button>
+                </div>
+                <div class="nameBody">
+                    <h4>I just set up this new discord bot, let me know what you all think.<a href="#">link</a></h4>
+                </div>
+            </div>
+            <div class="feedBox">
+                <div class="header flex">
+                    <h2>Nichole K</h2>
+                    <div id="count2">12 like(s)
+                    </div>
+                    <button onclick="add2(count2)" class="button">Like</button>
+                </div>
+                <div class="nameBody">
+                    <h4>Just finished my <a href="#">next comic</a> check it out.</h4>
+                </div>
+            </div>
+            <div class="feedBox">
+                <div class="header flex">
+                    <h2>Jim R</h2>
+                    <div id="count3">9 like(s)</b>
+                    </div>
+                    <button onclick="add3(count3)" class="button">Like</button>
+                </div>
+                <div class="nameBody">
+                    <h4>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./scrypt.js"></script>
+
+</html>

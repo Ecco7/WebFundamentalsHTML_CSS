@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar flex">
+        <h1 class="title">Dojonary</h1>
+        <input type="search" id="site-search" name="q" placeholder="Search" />
+        <div>
+            <button onclick="turnOff(this)"  class="button">Log In</button>
+        </div>
+    </div>
+    <div class="container flex">
+        <div class="col1">
+            <div class="leftBox1-container flex">
+                <div class="littlebox1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h3>Plural: ninjas</h3>
+                    <div><button onclick="alert('Ninja Was Liked!')" class="like-button">13 Likes</button></div>
+                </div>
+                <div class="littlebox2">
+                    <h4>A practitioner skilled in the <br> <span>Japanese</span> art of <span>Ninjutsu</span></h4>
+                </div>
+            </div>
+            <div class="leftBox2-container flex">
+                <div class="littlebox1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h3>Plural: ninjas</h3>
+                    <div>
+                        <button class="like-button">37 Likes</button>
+                    </div>
+                </div>
+                <div class="littlebox2">
+                    <h4>A <span>programmer</span> who breaks<br> down problems with <span>zen</span>-like<br> focus.
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="rightBox1-container">
+                <div>
+                    <h3>Dojonary is<br>defined by YOU</h3>
+                </div>
+                <div>
+                    <button onclick="hide(this)" class="defButton">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./index.js"></script>
+</body>
+
+</html>

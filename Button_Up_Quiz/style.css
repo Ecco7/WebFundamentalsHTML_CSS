@@ -1,0 +1,36 @@
+.button1 {
+    color: forestgreen;
+    background-color: whitesmoke;
+    border: 2px;
+    border-radius: 20px;
+    border-color: green;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.button2{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: teal;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    font-size: large;
+}
+
+.button3{
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    height: 30px;
+    width: 150px;
+    font-weight: lighter;
+    box-shadow: 5px 5px 5px 2px #888888;
+
+}

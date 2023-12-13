@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile-header{
+    background-color: #17A2B8;
+    height: 100px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#pic{
+    border-radius: 50%;
+    border:  5px solid white;
+    width: 70px;
+    height: 70px;
+    top: 60px;
+    left: 40px;
+    position: absolute;
+}
+
+.profile-body{
+    border: 2px solid lightslategray;
+    padding: 20px;
+}
+
+.editlink{
+    color: blue;
+}
+
+a:hover {
+    color: #17A2B8; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+h3, h4{
+    padding: 5px;
+}
+h2{
+    padding-top: 20px;
+}
